@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Striving to be better than an hour ago</title>
+    <link>http://nmcapule.github.com/archcap2/</link>
+    <description>Recent content on Striving to be better than an hour ago</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 May 2015 02:26:01 +0800</lastBuildDate>
+    <atom:link href="http://nmcapule.github.com/archcap2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://nmcapule.github.com/archcap2/about/</link>
+      <pubDate>Fri, 22 May 2015 02:26:01 +0800</pubDate>
+      
+      <guid>http://nmcapule.github.com/archcap2/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Nathaniel Capule, a software developer. Welcome to my site.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
