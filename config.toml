@@ -1,4 +1,8 @@
 baseurl = "http://nmcapule.github.io/archcap2"
 languageCode = "en-us"
-title = "Striving to be better than an hour ago"
+title = "Yet another"
 canonifyurls = true
+
+[params]
+  description = "Striving to be better than an hour ago"
+  author = "Nathaniel Capule"
