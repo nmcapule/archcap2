@@ -5,4 +5,6 @@ title = "About"
 
 +++
 
-I'm Nathaniel Capule, a software developer. Welcome to my site.
+I'm Nathaniel Capule, a software developer. 
+
+Welcome to my site.
