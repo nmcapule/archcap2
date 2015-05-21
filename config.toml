@@ -1,0 +1,4 @@
+baseurl = "http://nmcapule.github.com/archcap2"
+languageCode = "en-us"
+title = "Striving to be better than an hour ago"
+canonifyurls = true
