@@ -1,4 +1,5 @@
-baseurl = "http://nmcapule.github.io/archcap2/"
+baseurl = "http://nmcapule.github.io/archcap2"
+canonifyurls: true
 languageCode = "en-us"
 paginate = 9
 title = "Yet another"
