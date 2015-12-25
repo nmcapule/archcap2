@@ -1,2 +1,9 @@
 # archcap2
-A hugo site for myself
+
+Self site made with hugo
+
+Build with:
+```
+hugo -d dist
+./deploy.sh
+```
