@@ -6,8 +6,49 @@
     <description>Recent content in Showcase on Yet another</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Dec 2015 11:38:46 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Dec 2015 13:55:49 +0800</lastBuildDate>
     <atom:link href="http://nmcapule.github.io/archcap2/categories/showcase/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>morse</title>
+      <link>http://nmcapule.github.io/archcap2/web-scripts/morse/</link>
+      <pubDate>Fri, 25 Dec 2015 13:55:49 +0800</pubDate>
+      
+      <guid>http://nmcapule.github.io/archcap2/web-scripts/morse/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A simple morse code converter script&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When I was dabbling in javascript, this is one of the first codes that I made. Sadly, the previous code has been lost in the oblivion of deleted blogspot sites. More than 5 years later, here&amp;rsquo;s an iteration.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&#34;text/javascript&#34; src=&#34;http://nmcapule.github.io/archcap2/js/morse.js&#34;&gt;&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;label for=&#34;normal-input&#34;&gt;Normal&lt;/label&gt;
+  &lt;input type=&#34;text&#34; id=&#34;normal-input&#34; onkeyup=&#34;toMorse()&#34;/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for=&#34;morse-input&#34;&gt;Morse&lt;/label&gt;
+  &lt;input type=&#34;text&#34; id=&#34;morse-input&#34; onkeyup=&#34;toNormal()&#34;/&gt;
+&lt;/div&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+  var morseInput = document.getElementById(&#39;morse-input&#39;);
+  var normalInput = document.getElementById(&#39;normal-input&#39;);
+
+  function toNormal() {
+    normalInput.value = morse.decode(morseInput.value);
+  }
+
+  function toMorse() {
+    morseInput.value = morse.encode(normalInput.value);
+  }
+&lt;/script&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m very proud of the &lt;a href=&#34;http://nmcapule.github.io/archcap2/js/morse.js&#34;&gt;code&lt;/a&gt; for this one when compared to the code I made years before.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>hello</title>
