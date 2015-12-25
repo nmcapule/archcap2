@@ -2,7 +2,6 @@
 Categories = ["personal"]
 Tags = ["about", "personal"]
 date = "2015-12-25T09:22:06+08:00"
-draft = false
 title = "about"
 
 +++
