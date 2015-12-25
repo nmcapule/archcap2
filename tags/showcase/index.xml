@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Showcase on Yet another</title>
+    <link>http://nmcapule.github.io/archcap2/tags/showcase/</link>
+    <description>Recent content in Showcase on Yet another</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Dec 2015 11:38:46 +0800</lastBuildDate>
+    <atom:link href="http://nmcapule.github.io/archcap2/tags/showcase/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>hello</title>
+      <link>http://nmcapule.github.io/archcap2/web-scripts/hello/</link>
+      <pubDate>Fri, 25 Dec 2015 11:38:46 +0800</pubDate>
+      
+      <guid>http://nmcapule.github.io/archcap2/web-scripts/hello/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A small snippet that embeds js into a Hugo post&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The button below executes a function from &lt;code&gt;/js/hello.js&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&#34;text/javascript&#34; src=&#34;http://nmcapule.github.io/archcap2/js/hello.js&#34;&gt;&lt;/script&gt;
+
+&lt;button onclick=&#34;Hello(&#39;World&#39;)&#34;&gt;Click Me!&lt;/button&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Source:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{ {&amp;lt; script &amp;quot;/js/hello.js&amp;quot; &amp;gt;}}
+{ {&amp;lt; verbatim &amp;gt;}}
+&amp;lt;button onclick=&amp;quot;Hello(&#39;World&#39;)&amp;quot;&amp;gt;Click Me!&amp;lt;/button&amp;gt;
+{ {&amp;lt; /verbatim &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- /layouts/shortcodes/script.html --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;{{ .Get 0 }}&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- /layouts/shortcodes/verbatim.html --&amp;gt;
+{{ .Inner }}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There might be an easier way to do this but so far I haven&amp;rsquo;t found anything from the docs.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
