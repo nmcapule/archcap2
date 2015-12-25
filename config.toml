@@ -1,8 +1,12 @@
-baseurl = "http://nmcapule.github.io/archcap2"
+baseurl = "http://nmcapule.github.io/archcap2/"
 languageCode = "en-us"
+paginate = 9
 title = "Yet another"
-canonifyurls = true
+theme = "material-design"
+MetaDataFormat = "toml"
 
 [params]
-  description = "Striving to be better than an hour ago"
-  author = "Nathaniel Capule"
+description = ""
+github = "nmcapule"
+facebook = "tsymnoea"
+linkedin = "nathaniel-capule"
