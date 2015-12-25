@@ -6,8 +6,30 @@
     <description>Recent content in Showcase on Yet another</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Dec 2015 13:55:49 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Dec 2015 22:57:11 +0800</lastBuildDate>
     <atom:link href="http://nmcapule.github.io/archcap2/categories/showcase/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>pixi</title>
+      <link>http://nmcapule.github.io/archcap2/web-scripts/pixi-proto/</link>
+      <pubDate>Fri, 25 Dec 2015 22:57:11 +0800</pubDate>
+      
+      <guid>http://nmcapule.github.io/archcap2/web-scripts/pixi-proto/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Developing a prototype game using Pixi.js&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;div id=&#34;target&#34;&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;script type=&#34;text/javascript&#34; src=&#34;http://nmcapule.github.io/archcap2/js/lib/pixi.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;http://nmcapule.github.io/archcap2/js/pixi-proto/main.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;12/26/2015 - Created a kind of hello world to pixi js, a rotating bunny
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>morse</title>
