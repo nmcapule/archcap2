@@ -28,7 +28,7 @@ title = "about"
 
 ##### Work experience
 
-1. Smartwave - Intern (2012)
+1. Smartwave - Intern (2011-2012)
   * Android, iOS, Java, Objective C
 2. Indra Philippines - Junior Consultant (2012-2013)
   * Java, Oracle SQL, Powerbuilder
