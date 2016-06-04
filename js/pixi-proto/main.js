@@ -95,6 +95,11 @@
     this.layers.push(layer);
   };
 
+  var ArenaEntity = function (texture) {
+    Entity.call(this, texture);
+  };
+
+  ArenaEntity.prototype = Object.create(Entity.prototype);
 
   /**
    * @brief Arena

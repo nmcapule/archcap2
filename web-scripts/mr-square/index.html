@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>morse</title>
+  <title>mr square</title>
   <link href="http://localhost:1313/archcap2//css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="http://localhost:1313/archcap2//css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
@@ -59,7 +59,7 @@
     <div class="row">
       <div class="col s12">
         <div class="card-panel">
-          <h4>morse</h4>
+          <h4>mr square</h4>
           <p>
           
             
@@ -68,39 +68,20 @@
            
           </p>
           <p><blockquote>
-<p>A simple morse code converter script</p>
+<p>Developing a solver for Mr. Square the game</p>
 </blockquote>
 
-<p>When I was dabbling in javascript, this is one of the first codes that I made. Sadly, the previous code has been lost in the oblivion of deleted blogspot sites. More than 5 years later, here&rsquo;s an iteration.</p>
 
-<p><script type="text/javascript" src="http://localhost:1313/archcap2/js/morse.js"></script>
+<div id="target"></div>
+<div id="controls"></div>
 
-<div>
-  <label for="normal-input">Normal</label>
-  <input type="text" id="normal-input" onkeyup="toMorse()"/>
-</div>
-<div>
-  <label for="morse-input">Morse</label>
-  <input type="text" id="morse-input" onkeyup="toNormal()"/>
-</div>
 
-<script type="text/javascript">
-  var morseInput = document.getElementById('morse-input');
-  var normalInput = document.getElementById('normal-input');
-
-  function toNormal() {
-    normalInput.value = morse.decode(morseInput.value);
-  }
-
-  function toMorse() {
-    morseInput.value = morse.encode(normalInput.value);
-  }
-</script>
+<p><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+<script type="text/javascript" src="http://localhost:1313/archcap2/js/lib/archcap2.js"></script>
+<script type="text/javascript" src="http://localhost:1313/archcap2/js/lib/pixi.min.js"></script>
+<script type="text/javascript" src="http://localhost:1313/archcap2/js/mr-square/main.js"></script></p>
 </p>
-
-<p>I&rsquo;m very proud of the <a href="http://localhost:1313/archcap2/js/morse.js">code</a> for this one when compared to the code I made years before.</p>
-</p>
-          <p>25 Dec 2015
+          <p>4 Jun 2016
             
               
                 <a href="http://localhost:1313/archcap2//tags/showcase/">#showcase</a>
@@ -117,13 +98,13 @@
     <div class="row">
       <div class="col s3 m1">
       
-        <a class="btn-floating btn-large waves-effect waves-light" href="http://localhost:1313/archcap2/web-scripts/pixi-proto/"><i class="mdi-navigation-arrow-back"></i></a>
+        <a class="btn-floating btn-large disabled"><i class="mdi-navigation-arrow-back"></i></a>
       
       </div>
       <div class="col s6 m10 center">&nbsp</div>
       <div class="col s3 m1">
       
-        <a class="btn-floating btn-large waves-effect waves-light" href="http://localhost:1313/archcap2/web-scripts/hello/"><i class="mdi-navigation-arrow-forward"></i></a>
+        <a class="btn-floating btn-large waves-effect waves-light" href="http://localhost:1313/archcap2/web-scripts/pixi-proto/"><i class="mdi-navigation-arrow-forward"></i></a>
       
       </div>
     </div>
